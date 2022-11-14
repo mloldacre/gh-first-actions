@@ -1,0 +1,12 @@
+name: Silly Conversation 
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print conversation
+        run: |
+            echo "Person_One: You need to find Updog! RIGHT NOW!"
+            echo "Person_Two: What's Updog?!"
+            echo "Person_One: Oh nothing much, just chilling"
+            echo "Person_Two: 🤦🏾‍♂️"
